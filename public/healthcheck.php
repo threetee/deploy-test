@@ -2,8 +2,8 @@
 require '../vendor/.composer/autoload.php';
 require '../config/settings.php';
 
-echo("OK");
+echo("OK\n");
 
-echo("Configured Redis slaves:");
+echo("Configured Redis slaves:\n");
 print_r($redis_slaves);
 ?>
